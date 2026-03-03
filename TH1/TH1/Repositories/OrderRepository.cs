@@ -18,5 +18,13 @@ namespace TH1.Repositories
                 .Where(o => o.UserId == userId)
                 .ToListAsync();
         }
+
+        public async Task<IEnumerable<Order>> GetAllOrders()
+        {
+            return await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .ToListAsync();
+        }
     }
 }

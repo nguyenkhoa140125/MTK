@@ -91,5 +91,25 @@ namespace TH1.Services
                 }).ToList()
             });
         }
+
+        public async Task<IEnumerable<OrderDto>> GetAllOrders()
+        {
+            var orders = await _orderRepository.GetAllOrders(); 
+            return orders.Select(o => new OrderDto
+            {
+                OrderId = o.OrderId,
+                UserId = o.UserId,
+                OrderDate = o.OrderDate,
+                TotalPrice = o.TotalPrice,
+                ShippingAddress = o.ShippingAddress,
+                PaymentMethod = o.PaymentMethod,
+                OrderItems = o.OrderItems.Select(oi => new OrderItemDto
+                {
+                    ProductId = oi.ProductId,
+                    Quantity = oi.Quantity,
+                    Price = oi.Price
+                }).ToList()
+            });
+        }
     }
 }

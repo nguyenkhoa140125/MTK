@@ -6,5 +6,6 @@ namespace TH1.Services
     {
         Task<OrderDto> CreateOrder(int userId, CreateOrderDto createOrderDto);
         Task<IEnumerable<OrderDto>> GetOrderHistory(int userId);
+        Task<IEnumerable<OrderDto>> GetAllOrders();
     }
 }

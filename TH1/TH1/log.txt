@@ -1,3 +1,193 @@
 [19-01-2026 15:02:45] AuthController initialized.
 [19-01-2026 15:02:46] Email sent to Khoa@gmail.com: Registration successful.
 [19-01-2026 15:02:46] User string registered successfully.
+[22-01-2026 12:54:57] AuthController initialized.
+[22-01-2026 12:54:58] User string logged in successfully.
+[22-01-2026 12:56:48] ProductsController initialized.
+[22-01-2026 12:57:58] ProductsController initialized.
+[22-01-2026 13:00:47] AuthController initialized.
+[22-01-2026 13:00:47] User string logged in successfully.
+[22-01-2026 13:03:22] ProductsController initialized.
+[22-01-2026 13:39:20] ProductsController initialized.
+[22-01-2026 13:40:42] AuthController initialized.
+[22-01-2026 13:40:43] User string logged in successfully.
+[22-01-2026 13:40:56] ProductsController initialized.
+[22-01-2026 13:42:19] AuthController initialized.
+[22-01-2026 13:42:20] User string logged in successfully.
+[22-01-2026 13:42:54] AuthController initialized.
+[22-01-2026 13:42:54] User string logged in successfully.
+[22-01-2026 13:43:53] AuthController initialized.
+[22-01-2026 13:43:53] User string logged in successfully.
+[22-01-2026 13:44:13] ProductsController initialized.
+[22-01-2026 13:47:08] AuthController initialized.
+[22-01-2026 13:47:08] User string logged in successfully.
+[22-01-2026 13:50:28] AuthController initialized.
+[22-01-2026 13:50:29] User string logged in successfully.
+[22-01-2026 13:50:54] ProductsController initialized.
+[22-01-2026 13:50:54] Product with id 1 deleted.
+[22-01-2026 13:51:10] ProductsController initialized.
+[22-01-2026 13:51:36] ProductsController initialized.
+[22-01-2026 13:51:36] Product string created.
+[22-01-2026 13:51:50] ProductsController initialized.
+[22-01-2026 13:52:00] ProductsController initialized.
+[22-01-2026 13:52:00] Product with id 1 deleted.
+[22-01-2026 13:52:06] ProductsController initialized.
+[22-01-2026 13:52:17] ProductsController initialized.
+[22-01-2026 13:52:17] Product with id 2 deleted.
+[22-01-2026 13:52:22] ProductsController initialized.
+[22-01-2026 14:12:39] AuthController initialized.
+[22-01-2026 14:12:40] User string logged in successfully.
+[22-01-2026 14:15:40] Processing cash payment of $10.00
+[22-01-2026 14:15:48] Processing cash payment of $10.00
+[22-01-2026 14:16:12] Processing PayPal payment of $10.00
+[28-02-2026 14:05:06] AuthController initialized.
+[28-02-2026 14:05:08] User string logged in successfully.
+[28-02-2026 14:07:36] ProductsController initialized.
+[28-02-2026 14:10:14] AuthController initialized.
+[28-02-2026 14:10:14] User string logged in successfully.
+[28-02-2026 14:13:49] ProductsController initialized.
+[28-02-2026 14:13:49] Product string created.
+[28-02-2026 14:14:20] ProductsController initialized.
+[28-02-2026 14:14:20] Product string created.
+[28-02-2026 14:15:00] ProductsController initialized.
+[28-02-2026 14:15:00] Product product1 created.
+[28-02-2026 14:15:09] ProductsController initialized.
+[28-02-2026 14:15:09] Product product2 created.
+[28-02-2026 14:15:24] ProductsController initialized.
+[28-02-2026 14:15:24] Product with id 1 not found.
+[28-02-2026 14:15:28] ProductsController initialized.
+[28-02-2026 14:15:37] ProductsController initialized.
+[28-02-2026 14:16:23] ProductsController initialized.
+[28-02-2026 14:16:24] Product product0 updated.
+[28-02-2026 14:18:54] OrdersController initialized.
+[28-02-2026 14:18:54] Order creation failed for user 1: Payment method not supported
+[28-02-2026 14:19:03] OrdersController initialized.
+[28-02-2026 14:19:03] Processing cash payment of $10.00
+[28-02-2026 14:19:03] Email sent to user@example.com: Order placed successfully.
+[28-02-2026 14:19:03] Order 1 created successfully for user 1.
+[28-02-2026 14:19:03] Order 1 created for user 1.
+[28-02-2026 14:26:46] OrdersController initialized.
+[02-03-2026 00:19:07] AuthController initialized.
+[02-03-2026 00:19:08] User string logged in successfully.
+[02-03-2026 00:40:28] AuthController initialized.
+[02-03-2026 00:40:33] User string logged in successfully.
+[02-03-2026 00:40:56] OrdersController initialized.
+[02-03-2026 00:40:57] Order creation failed for user 1: Payment method not supported
+[02-03-2026 00:41:11] OrdersController initialized.
+[02-03-2026 00:41:11] Admin requesting all orders.
+[02-03-2026 00:41:50] ProductsController initialized.
+[02-03-2026 00:42:21] ProductsController initialized.
+[02-03-2026 00:42:27] ProductsController initialized.
+[02-03-2026 00:42:27] Product with id 1 not found.
+[02-03-2026 00:43:38] ProductsController initialized.
+[02-03-2026 00:44:32] ProductsController initialized.
+[02-03-2026 00:44:33] Product UniqueProduct updated.
+[02-03-2026 03:16:46] AuthController initialized.
+[02-03-2026 03:16:47] User string logged in successfully.
+[02-03-2026 03:17:59] AuthController initialized.
+[02-03-2026 03:17:59] User string logged in successfully.
+[02-03-2026 03:18:21] OrdersController initialized.
+[02-03-2026 03:18:21] Admin requesting all orders.
+[02-03-2026 03:20:43] AuthController initialized.
+[02-03-2026 03:20:44] User string logged in successfully.
+[02-03-2026 03:21:01] OrdersController initialized.
+[02-03-2026 03:21:01] Admin requesting all orders.
+[02-03-2026 03:33:15] AuthController initialized.
+[02-03-2026 03:33:16] User string logged in successfully.
+[02-03-2026 03:33:36] OrdersController initialized.
+[02-03-2026 03:33:49] OrdersController initialized.
+[02-03-2026 03:33:49] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 03:37:17] AuthController initialized.
+[02-03-2026 03:37:18] User string logged in successfully.
+[02-03-2026 03:37:35] OrdersController initialized.
+[02-03-2026 03:38:09] OrdersController initialized.
+[02-03-2026 03:38:09] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 03:43:37] AuthController initialized.
+[02-03-2026 03:43:38] User string logged in successfully.
+[02-03-2026 03:43:59] OrdersController initialized.
+[02-03-2026 03:43:59] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 03:47:29] AuthController initialized.
+[02-03-2026 03:47:30] User string logged in successfully.
+[02-03-2026 03:47:45] OrdersController initialized.
+[02-03-2026 03:51:30] AuthController initialized.
+[02-03-2026 03:51:31] User string logged in successfully.
+[02-03-2026 03:52:12] OrdersController initialized.
+[02-03-2026 03:52:27] OrdersController initialized.
+[02-03-2026 03:52:27] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 03:54:06] AuthController initialized.
+[02-03-2026 03:54:08] User string logged in successfully.
+[02-03-2026 03:54:26] OrdersController initialized.
+[02-03-2026 03:54:26] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 03:55:38] AuthController initialized.
+[02-03-2026 03:55:38] User string logged in successfully.
+[02-03-2026 03:55:56] OrdersController initialized.
+[02-03-2026 03:55:56] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 04:01:44] AuthController initialized.
+[02-03-2026 04:01:46] User string logged in successfully.
+[02-03-2026 04:02:07] OrdersController initialized.
+[02-03-2026 04:02:07] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 15:30:38] AuthController initialized.
+[02-03-2026 15:30:39] Email sent to user123@example.com: Registration successful.
+[02-03-2026 15:30:39] User string123 registered successfully.
+[02-03-2026 15:30:55] AuthController initialized.
+[02-03-2026 15:30:55] User string123 logged in successfully.
+[02-03-2026 15:31:19] OrdersController initialized.
+[02-03-2026 15:31:25] OrdersController initialized.
+[02-03-2026 15:31:25] Admin string123 đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 15:32:53] AuthController initialized.
+[02-03-2026 15:32:54] User string123 logged in successfully.
+[02-03-2026 15:33:14] OrdersController initialized.
+[02-03-2026 15:33:19] OrdersController initialized.
+[02-03-2026 15:33:19] Admin string123 đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 15:34:42] AuthController initialized.
+[02-03-2026 15:34:43] User string123 logged in successfully.
+[02-03-2026 15:35:10] OrdersController initialized.
+[02-03-2026 15:35:14] OrdersController initialized.
+[02-03-2026 15:35:14] Admin string123 đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 15:36:29] ProductsController initialized.
+[02-03-2026 15:36:31] ProductsController initialized.
+[02-03-2026 15:36:42] ProductsController initialized.
+[02-03-2026 15:36:46] ProductsController initialized.
+[02-03-2026 15:36:46] Product with id 1 not found.
+[02-03-2026 15:36:51] ProductsController initialized.
+[02-03-2026 15:36:51] Product with id 2 not found.
+[02-03-2026 15:36:54] ProductsController initialized.
+[02-03-2026 15:39:34] AuthController initialized.
+[02-03-2026 15:39:35] User string123 logged in successfully.
+[02-03-2026 15:40:17] OrdersController initialized.
+[02-03-2026 15:40:17] Admin string123 đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 16:00:19] AuthController initialized.
+[02-03-2026 16:00:20] User string123 logged in successfully.
+[02-03-2026 16:00:37] OrdersController initialized.
+[02-03-2026 16:03:43] Processing cash payment of $10.00
+[02-03-2026 16:08:26] OrdersController initialized.
+[02-03-2026 17:41:24] AuthController initialized.
+[02-03-2026 17:41:24] User string logged in successfully.
+[02-03-2026 17:41:43] OrdersController initialized.
+[02-03-2026 17:41:43] Admin string đang truy vấn toàn bộ danh sách đơn hàng.
+[02-03-2026 17:42:13] ProductsController initialized.
+[02-03-2026 17:42:27] OrdersController initialized.
+[02-03-2026 17:54:37] AuthController initialized.
+[02-03-2026 17:54:37] User string logged in successfully.
+[02-03-2026 17:54:58] OrdersController initialized.
+[02-03-2026 17:55:09] ProductsController initialized.
+[02-03-2026 17:55:25] OrdersController initialized.
+[02-03-2026 17:55:25] Processing cash payment of $15.00
+[02-03-2026 17:55:26] Email sent to user@example.com: Order placed successfully.
+[02-03-2026 17:55:26] Order 2 created successfully for user 1.
+[02-03-2026 17:55:26] Đã áp dụng thuế VAT cho đơn hàng 2
+[02-03-2026 17:55:35] ProductsController initialized.
+[02-03-2026 17:58:03] AuthController initialized.
+[02-03-2026 17:58:04] User string logged in successfully.
+[02-03-2026 18:01:19] AuthController initialized.
+[02-03-2026 18:01:20] User string logged in successfully.
+[02-03-2026 18:01:45] AuthController initialized.
+[02-03-2026 18:01:45] User string logged in successfully.
+[02-03-2026 22:03:59] AuthController initialized.
+[02-03-2026 22:04:00] User string logged in successfully.
+[02-03-2026 22:05:13] ProductsController initialized.
+[02-03-2026 22:05:26] OrdersController initialized.
+[02-03-2026 22:05:26] Processing cash payment of $100.00
+[02-03-2026 22:05:26] Email sent to user@example.com: Order placed successfully.
+[02-03-2026 22:05:26] Order 3 created successfully for user 1.
+[02-03-2026 22:05:26] Đã áp dụng thuế VAT cho đơn hàng 3

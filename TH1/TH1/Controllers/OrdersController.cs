@@ -4,6 +4,7 @@ using System.Security.Claims;
 using TH1.DTOs;
 using TH1.Services;
 using TH1.Patterns.Singleton;
+using TH1.Patterns.Facade;
 
 namespace TH1.Controllers
 {
@@ -13,10 +14,12 @@ namespace TH1.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly IOrderService _orderService;
+        private readonly IOrderFacade _orderFacade;
 
-        public OrdersController(IOrderService orderService)
+        public OrdersController(IOrderService orderService, IOrderFacade orderFacade)
         {
-            _orderService = orderService;
+            _orderService = orderService ?? throw new ArgumentNullException(nameof(orderService));
+            _orderFacade = orderFacade ?? throw new ArgumentNullException(nameof(orderFacade));
             LoggerService.Instance.Log("OrdersController initialized.");
         }
 
@@ -37,7 +40,7 @@ namespace TH1.Controllers
             }
         }
 
-        [HttpGet("history")]
+        [HttpGet("history")]    
         public async Task<IActionResult> GetOrderHistory()
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
@@ -45,14 +48,32 @@ namespace TH1.Controllers
             return Ok(orders);
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> GetAllOrders()
         {
-            // In a real app, you would implement this in the OrderService
-            // For now, this is just a placeholder for the admin functionality
-             LoggerService.Instance.Log($"Admin requesting all orders.");
-            return Ok("Not Implemented");
+            LoggerService.Instance.Log($"Admin {User.Identity.Name} đang truy vấn toàn bộ danh sách đơn hàng.");
+
+            // Gọi trực tiếp qua Service (hoặc Facade nếu bạn có logic tổng hợp phức tạp)
+            var orders = await _orderService.GetAllOrders();
+
+            if (orders == null || !orders.Any())
+            {
+                return NotFound("Không có đơn hàng nào trong hệ thống.");
+            }
+
+            return Ok(orders);
+        }
+
+        [HttpPost("checkout")]   
+        public async Task<IActionResult> Checkout(CreateOrderDto dto)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+
+            // Chỉ gọi 1 phương thức duy nhất từ Facade
+            var result = await _orderFacade.PlaceOrderFullProcess(userId, dto);
+
+            return Ok(result);
         }
     }
 }

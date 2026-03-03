@@ -6,6 +6,8 @@ using System.Text;
 using TH1.Data;
 using TH1.Patterns.AbstractFactory;
 using TH1.Patterns.Builder;
+using TH1.Patterns.Decorator;
+using TH1.Patterns.Facade;
 using TH1.Repositories;
 using TH1.Services;
 
@@ -27,7 +29,12 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 // Configure Services
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<IOrderService>(provider => {
+    var baseService = provider.GetRequiredService<OrderService>();
+    return new TaxOrderDecorator(baseService); // Bọc thêm lớp tính thuế
+});
+builder.Services.AddScoped<IOrderFacade, OrderFacade>();
 
 // Configure Design Patterns
 builder.Services.AddTransient<IOrderBuilder, OrderBuilder>();
@@ -91,7 +98,53 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+
+        c.HeadContent = @"
+        <script>
+            // Hàm lưu token sau khi login thành công
+            async function loginAndSaveToken(username, password) {
+                const response = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+                const data = await response.json();
+                if (data && data.token) {
+                    localStorage.setItem('authToken', data.token);
+                }
+            }
+
+            // Observer để chờ nút Authorize xuất hiện
+            const observer = new MutationObserver(mutations => {
+                const btn = document.querySelector('.auth-wrapper .authorize');
+                if (btn) {
+                    const token = localStorage.getItem('authToken');
+                    if (token) {
+                        // Tự động điền token vào Authorize
+                        const ui = window.ui;
+                        if (ui) {
+                            ui.authActions.authorize({
+                                'Bearer': {
+                                    name: 'Authorization',
+                                    schema: {
+                                        type: 'apiKey',
+                                        in: 'header',
+                                        name: 'Authorization'
+                                    },
+                                    value: 'Bearer ' + token
+                                }
+                            });
+                        }
+                    }
+                }
+            });
+
+            observer.observe(document.body, { childList: true, subtree: true });
+        </script>";
+    });
     app.UseDeveloperExceptionPage();
 }
 

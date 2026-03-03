@@ -1,0 +1,472 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\decorator\\iorderservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\decorator\\iorderservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\facade\\iorderfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\facade\\iorderfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\builder\\orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\builder\\orderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\builder\\iorderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\builder\\iorderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\singleton\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\singleton\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\patterns\\abstractfactory\\emailnotificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\patterns\\abstractfactory\\emailnotificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|c:\\users\\lepha\\desktop\\mtk\\th\\mtk_th\\th1\\th1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B7FCC7C-82FF-4E4D-985C-F14F8CA1B6B9}|TH1\\TH1.csproj|solutionrelative:th1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TH1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TH1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:22:49.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TH1\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TH1\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T11:02:32.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Program.cs",
+              "RelativeDocumentMoniker": "TH1\\Program.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Program.cs",
+              "RelativeToolTip": "TH1\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:54:04.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "TH1\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\OrderService.cs",
+              "RelativeToolTip": "TH1\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:20:15.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TH1\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "TH1\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T19:53:49.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TH1\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\AuthService.cs",
+              "RelativeToolTip": "TH1\\Services\\AuthService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwE0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:19:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TH1\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TH1\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:24:08.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "TH1\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\ProductService.cs",
+              "RelativeToolTip": "TH1\\Services\\ProductService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:46:26.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Singleton\\LoggerService.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\Singleton\\LoggerService.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Singleton\\LoggerService.cs",
+              "RelativeToolTip": "TH1\\Patterns\\Singleton\\LoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:20:49.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "TH1\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Data\\DataContext.cs",
+              "RelativeToolTip": "TH1\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:23:33.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TH1\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "TH1\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:23:27.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "TH1\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "TH1\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:23:25.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TH1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Models\\Product.cs",
+              "RelativeToolTip": "TH1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:23:18.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TH1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Models\\User.cs",
+              "RelativeToolTip": "TH1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:23:17.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TH1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TH1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:15:48.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailNotificationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\AbstractFactory\\EmailNotificationFactory.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\AbstractFactory\\EmailNotificationFactory.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\AbstractFactory\\EmailNotificationFactory.cs",
+              "RelativeToolTip": "TH1\\Patterns\\AbstractFactory\\EmailNotificationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:47:13.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TH1\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Services\\IAuthService.cs",
+              "RelativeToolTip": "TH1\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:20:11.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\appsettings.json",
+              "RelativeDocumentMoniker": "TH1\\appsettings.json",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\appsettings.json",
+              "RelativeToolTip": "TH1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T06:48:18.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TH1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\appsettings.Development.json",
+              "RelativeToolTip": "TH1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T06:48:16.411Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\log.txt",
+              "RelativeDocumentMoniker": "TH1\\log.txt",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\log.txt",
+              "RelativeToolTip": "TH1\\log.txt",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-02T12:13:57.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOrderServiceDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Decorator\\IOrderServiceDecorator.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\Decorator\\IOrderServiceDecorator.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Decorator\\IOrderServiceDecorator.cs",
+              "RelativeToolTip": "TH1\\Patterns\\Decorator\\IOrderServiceDecorator.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:13:35.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Builder\\IOrderBuilder.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\Builder\\IOrderBuilder.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Builder\\IOrderBuilder.cs",
+              "RelativeToolTip": "TH1\\Patterns\\Builder\\IOrderBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T09:15:07.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TH1\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "TH1\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T09:10:43.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderFacade.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Facade\\IOrderFacade.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\Facade\\IOrderFacade.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Facade\\IOrderFacade.cs",
+              "RelativeToolTip": "TH1\\Patterns\\Facade\\IOrderFacade.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T19:53:04.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Builder\\OrderBuilder.cs",
+              "RelativeDocumentMoniker": "TH1\\Patterns\\Builder\\OrderBuilder.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Patterns\\Builder\\OrderBuilder.cs",
+              "RelativeToolTip": "TH1\\Patterns\\Builder\\OrderBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T09:15:08.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "TH1\\DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "TH1\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T20:41:07.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "TH1\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "TH1\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:20:33.936Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
