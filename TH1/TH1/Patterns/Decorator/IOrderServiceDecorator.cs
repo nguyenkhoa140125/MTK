@@ -1,4 +1,4 @@
-﻿using TH1.DTOs;
+using TH1.DTOs;
 using TH1.Patterns.Singleton;
 using TH1.Services;
 

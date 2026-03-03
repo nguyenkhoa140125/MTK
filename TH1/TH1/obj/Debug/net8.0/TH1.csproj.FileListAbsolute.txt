@@ -8,7 +8,6 @@ D:\school\MTK\TH1\TH1\obj\Debug\net8.0\TH1.MvcApplicationPartsAssemblyInfo.cs
 D:\school\MTK\TH1\TH1\obj\Debug\net8.0\TH1.MvcApplicationPartsAssemblyInfo.cache
 D:\school\MTK\TH1\TH1\bin\Debug\net8.0\appsettings.Development.json
 D:\school\MTK\TH1\TH1\bin\Debug\net8.0\appsettings.json
-D:\school\MTK\TH1\TH1\bin\Debug\net8.0\postman_collection.json
 D:\school\MTK\TH1\TH1\bin\Debug\net8.0\TH1.staticwebassets.endpoints.json
 D:\school\MTK\TH1\TH1\bin\Debug\net8.0\TH1.exe
 D:\school\MTK\TH1\TH1\bin\Debug\net8.0\TH1.deps.json
@@ -426,3 +425,5 @@ C:\Users\lepha\Desktop\MTK\TH\MTK_TH\TH1\TH1\obj\Debug\net8.0\refint\TH1.dll
 C:\Users\lepha\Desktop\MTK\TH\MTK_TH\TH1\TH1\obj\Debug\net8.0\TH1.pdb
 C:\Users\lepha\Desktop\MTK\TH\MTK_TH\TH1\TH1\obj\Debug\net8.0\TH1.genruntimeconfig.cache
 C:\Users\lepha\Desktop\MTK\TH\MTK_TH\TH1\TH1\obj\Debug\net8.0\ref\TH1.dll
+d:\school\MTK\TH1\TH1\obj\Debug\net8.0\TH1.sourcelink.json
+d:\school\MTK\TH1\TH1\bin\Debug\net8.0\TH1.staticwebassets.runtime.json

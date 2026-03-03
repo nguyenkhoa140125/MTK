@@ -2,7 +2,6 @@ using TH1.DTOs;
 using TH1.Models;
 using TH1.Repositories;
 using TH1.Patterns.Builder;
-using TH1.Patterns.FactoryMethod;
 using TH1.Patterns.AbstractFactory;
 using TH1.Patterns.Singleton;
 
@@ -24,9 +23,8 @@ namespace TH1.Services
             _notificationFactory = notificationFactory;
         }
 
-        public async Task<OrderDto> CreateOrder(int userId, CreateOrderDto createOrderDto)
+        public Task<OrderDto> CreateOrder(int userId, CreateOrderDto createOrderDto)
         {
-            // Use Builder to create the order
             var order = _orderBuilder
                 .SetCustomerInfo(userId)
                 .SetShippingAddress(createOrderDto.ShippingAddress)
@@ -34,30 +32,10 @@ namespace TH1.Services
                 .SetOrderItems(createOrderDto.OrderItems)
                 .Build();
 
-            // Use Factory Method to process payment
-            PaymentServiceFactory paymentFactory = createOrderDto.PaymentMethod.ToLower() switch
+            // Trả về đơn hàng đã tính tổng (Decorator sẽ bọc thêm VAT nếu được cấu hình).
+            return Task.FromResult(new OrderDto
             {
-                "cash" => new CashPaymentFactory(),
-                "paypal" => new PaypalPaymentFactory(),
-                "vnpay" => new VNPayPaymentFactory(),
-                _ => throw new NotSupportedException("Payment method not supported")
-            };
-            var paymentService = paymentFactory.CreatePaymentService();
-            var paymentResult = paymentService.ProcessPayment(order.TotalPrice);
-            LoggerService.Instance.Log(paymentResult);
-
-
-            await _orderRepository.AddAsync(order);
-            await _orderRepository.SaveChangesAsync();
-
-            // Use Abstract Factory to send notification
-            var notification = _notificationFactory.CreateNotification();
-            notification.SendOrderSuccessNotification("user@example.com"); // In a real app, get user's email
-            LoggerService.Instance.Log($"Order {order.OrderId} created successfully for user {userId}.");
-
-            return new OrderDto
-            {
-                OrderId = order.OrderId,
+                OrderId = 0,
                 UserId = order.UserId,
                 OrderDate = order.OrderDate,
                 TotalPrice = order.TotalPrice,
@@ -69,7 +47,7 @@ namespace TH1.Services
                     Quantity = oi.Quantity,
                     Price = oi.Price
                 }).ToList()
-            };
+            });
         }
 
         public async Task<IEnumerable<OrderDto>> GetOrderHistory(int userId)

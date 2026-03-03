@@ -6,9 +6,9 @@ namespace TH1.DTOs
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
-        public string ShippingAddress { get; set; }
-        public string PaymentMethod { get; set; }
-        public ICollection<OrderItemDto> OrderItems { get; set; }
+        public string ShippingAddress { get; set; } = string.Empty;
+        public string PaymentMethod { get; set; } = string.Empty;
+        public ICollection<OrderItemDto> OrderItems { get; set; } = new List<OrderItemDto>();
     }
 
     public class OrderItemDto

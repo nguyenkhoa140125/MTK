@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using TH1.Data;
+using TH1.Patterns.Adapter;
 using TH1.Patterns.AbstractFactory;
 using TH1.Patterns.Builder;
 using TH1.Patterns.Decorator;
@@ -14,7 +15,11 @@ using TH1.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    });
 
 // Configure DbContext
 builder.Services.AddDbContext<DataContext>(options =>
@@ -40,6 +45,10 @@ builder.Services.AddScoped<IOrderFacade, OrderFacade>();
 builder.Services.AddTransient<IOrderBuilder, OrderBuilder>();
 // A choice has to be made for the default notification factory
 builder.Services.AddTransient<INotificationFactory, EmailNotificationFactory>();
+
+// Adapter Pattern (VNPay SDK -> IPaymentService)
+builder.Services.AddSingleton<VnPaySdk>();
+builder.Services.AddScoped<IPaymentService, VnPayAdapter>();
 
 
 // Configure JWT Authentication
@@ -147,6 +156,10 @@ if (app.Environment.IsDevelopment())
     });
     app.UseDeveloperExceptionPage();
 }
+
+// Serve simple web UI from wwwroot (index.html)
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 

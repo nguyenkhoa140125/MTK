@@ -29,9 +29,9 @@ namespace TH1.Controllers
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
             try
             {
-                var order = await _orderService.CreateOrder(userId, createOrderDto);
-                LoggerService.Instance.Log($"Order {order.OrderId} created for user {userId}.");
-                return Ok(order);
+                var result = await _orderFacade.PlaceOrderFullProcess(userId, createOrderDto);
+                LoggerService.Instance.Log($"Order {result.Order.OrderId} created for user {userId}.");
+                return Ok(result);
             }
             catch (Exception ex)
             {

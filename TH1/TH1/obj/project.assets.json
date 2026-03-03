@@ -4175,23 +4175,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lepha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "D:\\work\\Visual_studio_purple\\SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\TH1.csproj",
+      "projectUniqueName": "d:\\school\\MTK\\TH1\\TH1\\TH1.csproj",
       "projectName": "TH1",
-      "projectPath": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\TH1.csproj",
-      "packagesPath": "C:\\Users\\lepha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lepha\\Desktop\\MTK\\TH\\MTK_TH\\TH1\\TH1\\obj\\",
+      "projectPath": "d:\\school\\MTK\\TH1\\TH1\\TH1.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "d:\\school\\MTK\\TH1\\TH1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\work\\Visual_studio_purple\\SDK\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lepha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4218,7 +4218,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4266,7 +4266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -191,3 +191,52 @@
 [02-03-2026 22:05:26] Email sent to user@example.com: Order placed successfully.
 [02-03-2026 22:05:26] Order 3 created successfully for user 1.
 [02-03-2026 22:05:26] Đã áp dụng thuế VAT cho đơn hàng 3
+[03-03-2026 09:54:06] ProductsController initialized.
+[03-03-2026 09:57:23] ProductsController initialized.
+[03-03-2026 09:57:39] ProductsController initialized.
+[03-03-2026 09:57:39] ProductsController initialized.
+[03-03-2026 09:57:41] ProductsController initialized.
+[03-03-2026 09:58:34] ProductsController initialized.
+[03-03-2026 09:58:41] ProductsController initialized.
+[03-03-2026 10:36:53] ProductsController initialized.
+[03-03-2026 10:48:18] ProductsController initialized.
+[03-03-2026 10:49:16] ProductsController initialized.
+[03-03-2026 10:50:48] AuthController initialized.
+[03-03-2026 10:50:49] User Khoa logged in successfully.
+[03-03-2026 10:51:13] ProductsController initialized.
+[03-03-2026 10:51:14] Product table created.
+[03-03-2026 10:51:24] ProductsController initialized.
+[03-03-2026 10:51:32] ProductsController initialized.
+[03-03-2026 10:51:33] ProductsController initialized.
+[03-03-2026 10:51:33] ProductsController initialized.
+[03-03-2026 10:51:33] ProductsController initialized.
+[03-03-2026 10:51:33] ProductsController initialized.
+[03-03-2026 10:51:33] ProductsController initialized.
+[03-03-2026 10:51:34] ProductsController initialized.
+[03-03-2026 10:51:34] ProductsController initialized.
+[03-03-2026 10:51:34] ProductsController initialized.
+[03-03-2026 10:51:34] ProductsController initialized.
+[03-03-2026 10:51:34] ProductsController initialized.
+[03-03-2026 10:51:35] ProductsController initialized.
+[03-03-2026 10:56:55] ProductsController initialized.
+[03-03-2026 10:57:20] AuthController initialized.
+[03-03-2026 10:57:21] User Khoa logged in successfully.
+[03-03-2026 10:57:28] OrdersController initialized.
+[03-03-2026 10:57:28] Toàn bộ quy trình được quản lý bởi Facade
+[03-03-2026 10:57:28] Đã áp dụng thuế VAT cho đơn hàng 0
+[03-03-2026 10:57:28] Đã tính giá qua Decorator (bao gồm thuế/giảm giá)
+[03-03-2026 10:57:28] Đã gọi Adapter để kết nối VNPay
+[03-03-2026 10:57:29] Email sent to user@example.com: Order placed successfully.
+[03-03-2026 10:57:29] Abstract Factory: EmailNotificationFactory đã gửi email xác nhận đơn hàng.
+[03-03-2026 10:57:29] Toàn bộ quy trình được quản lý bởi Facade
+[03-03-2026 10:57:29] ProductsController initialized.
+[03-03-2026 10:59:32] ProductsController initialized.
+[03-03-2026 10:59:42] OrdersController initialized.
+[03-03-2026 10:59:42] Toàn bộ quy trình được quản lý bởi Facade
+[03-03-2026 10:59:42] Đã áp dụng thuế VAT cho đơn hàng 0
+[03-03-2026 10:59:42] Đã tính giá qua Decorator (bao gồm thuế/giảm giá)
+[03-03-2026 10:59:42] Đã gọi Adapter để kết nối VNPay
+[03-03-2026 10:59:42] Email sent to user@example.com: Order placed successfully.
+[03-03-2026 10:59:42] Abstract Factory: EmailNotificationFactory đã gửi email xác nhận đơn hàng.
+[03-03-2026 10:59:42] Toàn bộ quy trình được quản lý bởi Facade
+[03-03-2026 10:59:42] ProductsController initialized.
